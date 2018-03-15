@@ -22,7 +22,7 @@ test:
 
 deployment:
   registry:
-    branch: [deployment]
+    branch: [master]
     commands:
       - make build
 #      - make push
