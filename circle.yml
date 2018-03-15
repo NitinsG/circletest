@@ -1,0 +1,29 @@
+general:
+  artifacts:
+    - "VERSION"
+
+machine:
+  node:
+    version: 4.2.6
+  services:
+    - docker
+
+dependencies:
+  override:
+    - echo "None"
+
+database:
+  override:
+    - echo "None"
+
+test:
+  override:
+    - "echo none"
+
+deployment:
+  registry:
+    branch: [deployment]
+    commands:
+      - make build
+#      - make push
+
