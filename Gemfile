@@ -14,31 +14,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # File uploads
 gem 'carrierwave'
 # Zip downloads
-gem 'rubyzip'
-# Easy searching
-gem 'ransack'
-# Authorization library
-gem "cancan"
-# Pagination
-gem 'kaminari'
-gem 'bootstrap-kaminari-views'
-# Dynamic nested forms using jQuery
-gem 'cocoon'
-
-gem 'pagedown-bootstrap-rails'
-
-gem 'bootstrap-sass', '~> 3.3.4'
-gem 'font-awesome-sass', '~> 4.3.0'
 
 gem 'pg', '~> 0.20.0'
 
-gem 'simplecov', :require => false, :group => :test
 
 group :development, :test do
-
-  gem 'byebug'
-
-  gem 'web-console', '~> 2.0'
 
   gem 'spring'
 
@@ -52,6 +32,5 @@ group :development, :test do
 
   gem 'email_spec'
 
-  gem 'pry-rails'
 end
 
